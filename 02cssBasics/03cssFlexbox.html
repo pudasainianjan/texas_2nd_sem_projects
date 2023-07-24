@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Flexbox</title>
+    <!-- <link rel="stylesheet" href="03cssFlexbox.css" /> -->
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .website {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+      }
+
+      .headerContainer {
+        background-color: lightgreen;
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        /* DEFAULT */
+        /* flex-direction: row; */
+        flex-direction: row;
+        /* THIS JUSTIFY CONTENT HHELPS TO ALIGN CONTENT IN MAIN AXIS */
+        justify-content: space-around;
+        align-self: flex-end;
+      }
+
+      .header-item {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="headerContainer">
+      <div class="header-item header-item-1">Home</div>
+      <div class="header-item header-item-2">About Me</div>
+      <div class="header-item header-item-3">Some Link</div>
+      <div class="header-item header-item-3">Some Link</div>
+    </section>
+  </body>
+</html>

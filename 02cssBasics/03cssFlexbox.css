@@ -1,0 +1,48 @@
+.flexbox-container {
+  display: flex;
+  background-color: yellow;
+  /*
+  height: 800px;
+  /* align-items: stretch; */ /*Default*/
+  /* justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around; */
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+  flex-shrink: 0;
+  align-self: flex-end;
+  /* order: 3; */
+  /* max-height: 300px; */
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+  flex-grow: 2;
+  flex-basis: 0px;
+  align-self: center;
+  /* order: 1; */
+  /* max-height: 300px; */
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+  flex-grow: 1; /* now the item will take extra availablle space*/
+  flex-basis: 0;
+  align-self: flex-end;
+  /*order: 2; /*not recommended as screen readers would get confused with this*/
+  /* max-height: 300px; */
+}
+
+/* ip address */
+/* http: //10.20.1.2/
+; */

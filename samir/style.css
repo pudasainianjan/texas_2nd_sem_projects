@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+  color: aliceblue;
+  position: relative;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: orangered;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  list-style: none;
+}
+.header ul li a {
+  text-decoration: none;
+  margin: 12px;
+  padding: 12px;
+  font-size: large;
+  color: aliceblue;
+}
+
+.header ul li a:hover {
+  color: aqua;
+}
+.end {
+  position: absolute;
+}
+.end {
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: aliceblue;
+}
+/* EXAMPLE OF SELECTOR */
+body .randomDiv {
+  background-color: aquamarine;
+  font-size: 20px;
+}
+
+.myClass div {
+  background-color: red;
+}
