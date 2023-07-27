@@ -8,70 +8,35 @@
     <link rel="stylesheet" href="myPortfolio.css">
     <title>Document</title>
     <style>
-      .starImageWrapper{
-        top: 10%;
-        left: 50%;
+      .carouselWrapper {
+        width: 100vw;
+        height: 150px;
       }
 
-      .bigTextIntro{
-        font-size: 64px;
-        font-weight: 700;
+      .carousel {
+        width: 100%;
+        height: 100% !important;
       }
 
-      .descriptionText{
-        color: rgba(255, 255, 255, 0.80) !important;
-      }
-
-      .contents{
-        position: absolute;
-        top: 30%;
-        left: 10%;
-        width: 50%;
+      .carousel img {
+        width: auto;
+        height: 100%;
       }
     </style>
   </head>
   <body>
-    <div class="websiteWrapper container-fluid h-100 w-100 p-0 z-index-1 position-relative">
-      <div class="starImageWrapper position-absolute">
-        <img src="starImage.png" alt="starImage"/>
-      </div>
-       <div class="fixed-top d-flex justify-content-end z-index-5">
+    <div class="websiteWrapper container-fluid h-100 w-100 p-0">
+       <div class="fixed-top d-flex justify-content-end">
          <svg width="660" height="561" viewBox="0 0 660 561" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M392.702 -142.469C484.037 -138.684 580.113 -109.074 635.88 -47.4277C687.442 9.57137 652.796 90.5068 667.525 161.329C679.366 218.267 723.559 268.773 713.532 325.962C702.422 389.32 667.004 449.783 609.666 491.311C549.613 534.805 470.074 571.351 392.702 558.328C317.711 545.705 294.351 462.924 230.281 427.453C160.179 388.642 37.9611 409.913 5.91777 344.191C-25.4728 279.809 77.2575 223.254 97.8255 155.786C120.609 81.0505 73.2562 -9.23734 131.676 -68.3261C192.199 -129.543 298.781 -146.362 392.702 -142.469Z" fill="#FCB336"/>
             </svg>
-            <!-- <div class="imageWrapper position-absolute bottom-0 z-index-0">
-              <img src="myImage.png" />
-            </div> -->
-            
        </div>
-      
         
-       <nav class="navbar navbar-expand-lg" style="background-color: #386261;">
-        <div class="px-5 d-flex w-100 justify-content-between">
-                <p class="h5 text-white fw-bold">
-                Jons Toye
-                </p>
-            <div class="rightContents text-black d-flex w-30 d-flex justify-content-around" style="z-index: 2222; width: 30%;">
-                <div>About</div>
-                <div>Projects</div>
-                <div>Contracts</div>
-            </div>
-      
-        </div>
-      </nav>
-
-      <section class="contents position-absolute position-absolute">
-        <h1 class=" text-white bigTextIntro">Hello, my name
-          is Anjan Pudasaini</h1>
-          <h4 class="text-bold text-dark descriptionText opacity-75">Short text with details about you, what you
-            do or your professional. you can add more
-            information on the about pages</h4>
-
-            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
-              <button type="button" class="btn btn-outline-primary">Left</button>
-              <button type="button" class="btn btn-outline-primary">Middle</button>
-            </div>
-      </section>
+            <nav class="navbar navbar-expand-lg" style="background-color: #386261;">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#">Jons Toye</a>
+                </div>
+              </nav>
     </div>
         
         
